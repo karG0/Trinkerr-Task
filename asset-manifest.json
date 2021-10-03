@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Trinkerr-Task/static/js/main.6772e53a.chunk.js",
+    "main.js.map": "/Trinkerr-Task/static/js/main.6772e53a.chunk.js.map",
+    "runtime-main.js": "/Trinkerr-Task/static/js/runtime-main.e0b705b2.js",
+    "runtime-main.js.map": "/Trinkerr-Task/static/js/runtime-main.e0b705b2.js.map",
+    "static/js/2.ac3c354a.chunk.js": "/Trinkerr-Task/static/js/2.ac3c354a.chunk.js",
+    "static/js/2.ac3c354a.chunk.js.map": "/Trinkerr-Task/static/js/2.ac3c354a.chunk.js.map",
+    "index.html": "/Trinkerr-Task/index.html",
+    "static/js/2.ac3c354a.chunk.js.LICENSE.txt": "/Trinkerr-Task/static/js/2.ac3c354a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0b705b2.js",
+    "static/js/2.ac3c354a.chunk.js",
+    "static/js/main.6772e53a.chunk.js"
+  ]
+}
