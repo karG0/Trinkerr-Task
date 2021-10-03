@@ -1,10 +1,78 @@
-import React from "react";
+import React, { useState } from "react";
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+import Avatar from "@mui/material/Avatar";
+import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
+import Typography from "@mui/material/Typography";
+
+import VerifyMobileNo from "./VerifyMobileNo.jsx";
+import { useHistory } from "react-router";
 
 export default function SignUp() {
+  let history = useHistory();
+  const [isValidated, setIsValidated] = useState(false);
+  const [userDetails, setUserDeatils] = useState({});
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    if (data.get("name")) {
+      localStorage.setItem(
+        "userDetails",
+        JSON.stringify({ ...userDetails, name: data.get("name") })
+      );
+      history.push("/signin");
+    }
+  };
+
   return (
     <Container component="main" maxWidth="xs">
-    <h1>SIGNUP</h1>
-  </Container>
- );
+      {!isValidated ? (
+        <VerifyMobileNo
+          type={"signup"}
+          setIsValidated={setIsValidated}
+          setUserDeatils={setUserDeatils}
+        />
+      ) : (
+        <>
+          <Box
+            sx={{
+              marginTop: 8,
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
+              <LockOutlinedIcon />
+            </Avatar>
+            <Typography component="h1" variant="h5">
+              Sign Up
+            </Typography>
+            <Box component="form" onSubmit={handleSubmit} sx={{ mt: 1 }}>
+              <TextField
+                margin="normal"
+                required
+                fullWidth
+                id="name"
+                label="Name"
+                name="name"
+                autoFocus
+              />
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                sx={{ mt: 3, mb: 2 }}
+              >
+                Sign Up
+              </Button>
+            </Box>
+          </Box>
+        </>
+      )}
+    </Container>
+  );
 }
