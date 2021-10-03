@@ -7,7 +7,7 @@ import { SnackbarProvider } from 'notistack';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/trinkerr-task" >
       <CssBaseline />
       <SnackbarProvider anchorOrigin={{
         vertical: 'top',
