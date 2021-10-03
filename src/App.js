@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import Login  from "./Components/Authentication/Login";
 import SignUp from "./Components/Authentication/SignUp";
 import Swiper from "./Components/Swiper";
+import PageNotFound from "./Components/PageNotFound.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route exact path={"/"} component={SignUp} />
       <Route exact path={"/signin"} component={Login} />
       <Route exact path={"/swiper"} component={Swiper} />
+      <Route component={PageNotFound} />
     </Switch>
   );
 }
