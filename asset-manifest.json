@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.js": "/trinkerr-task/static/js/main.e2073927.chunk.js",
-    "main.js.map": "/trinkerr-task/static/js/main.e2073927.chunk.js.map",
+    "main.js": "/trinkerr-task/static/js/main.5e1b4ade.chunk.js",
+    "main.js.map": "/trinkerr-task/static/js/main.5e1b4ade.chunk.js.map",
     "runtime-main.js": "/trinkerr-task/static/js/runtime-main.3bdd0b3e.js",
     "runtime-main.js.map": "/trinkerr-task/static/js/runtime-main.3bdd0b3e.js.map",
-    "static/js/2.a349fd9d.chunk.js": "/trinkerr-task/static/js/2.a349fd9d.chunk.js",
-    "static/js/2.a349fd9d.chunk.js.map": "/trinkerr-task/static/js/2.a349fd9d.chunk.js.map",
+    "static/js/2.46759edd.chunk.js": "/trinkerr-task/static/js/2.46759edd.chunk.js",
+    "static/js/2.46759edd.chunk.js.map": "/trinkerr-task/static/js/2.46759edd.chunk.js.map",
     "index.html": "/trinkerr-task/index.html",
-    "static/js/2.a349fd9d.chunk.js.LICENSE.txt": "/trinkerr-task/static/js/2.a349fd9d.chunk.js.LICENSE.txt"
+    "static/js/2.46759edd.chunk.js.LICENSE.txt": "/trinkerr-task/static/js/2.46759edd.chunk.js.LICENSE.txt",
+    "static/media/four.3d5d6aed.png": "/trinkerr-task/static/media/four.3d5d6aed.png",
+    "static/media/one.80467496.png": "/trinkerr-task/static/media/one.80467496.png",
+    "static/media/three.15e9e3ff.png": "/trinkerr-task/static/media/three.15e9e3ff.png",
+    "static/media/two.1be6c6ff.png": "/trinkerr-task/static/media/two.1be6c6ff.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3bdd0b3e.js",
-    "static/js/2.a349fd9d.chunk.js",
-    "static/js/main.e2073927.chunk.js"
+    "static/js/2.46759edd.chunk.js",
+    "static/js/main.5e1b4ade.chunk.js"
   ]
 }
