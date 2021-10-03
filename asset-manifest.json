@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/trinkerr-task/static/js/main.19d2cc7a.chunk.js",
-    "main.js.map": "/trinkerr-task/static/js/main.19d2cc7a.chunk.js.map",
+    "main.js": "/trinkerr-task/static/js/main.e2073927.chunk.js",
+    "main.js.map": "/trinkerr-task/static/js/main.e2073927.chunk.js.map",
     "runtime-main.js": "/trinkerr-task/static/js/runtime-main.3bdd0b3e.js",
     "runtime-main.js.map": "/trinkerr-task/static/js/runtime-main.3bdd0b3e.js.map",
     "static/js/2.a349fd9d.chunk.js": "/trinkerr-task/static/js/2.a349fd9d.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.3bdd0b3e.js",
     "static/js/2.a349fd9d.chunk.js",
-    "static/js/main.19d2cc7a.chunk.js"
+    "static/js/main.e2073927.chunk.js"
   ]
 }
