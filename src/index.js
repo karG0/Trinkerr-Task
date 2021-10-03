@@ -6,8 +6,8 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { SnackbarProvider } from 'notistack';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter>
       <CssBaseline />
       <SnackbarProvider anchorOrigin={{
         vertical: 'top',
@@ -16,7 +16,7 @@ ReactDOM.render(
       >
         <App />
       </SnackbarProvider>
-    </React.StrictMode>
-  </BrowserRouter>
+    </BrowserRouter>
+  </React.StrictMode>
   , document.getElementById('root')
 );
