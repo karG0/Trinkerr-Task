@@ -130,7 +130,7 @@ export default function Login(props) {
               component="button"
               variant="body2"
               onClick={() => {
-                const path = type === "signup" ? "/signin" : "/";
+                const path = type === "signup" ? "/signin" : "/trinkerr-task/";
                 history.push(path);
               }}
             >
